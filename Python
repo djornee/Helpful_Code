@@ -1,0 +1,6 @@
+
+
+# get the nth bit (from the right) of the binary representation of x
+# for example, 9 is 1001, and right-shifting two gives the third bit, 0, after bitwise & with 1
+# adapted from https://stackoverflow.com/questions/9298865/get-n-th-bit-of-an-integer
+bit = (x >> (n - 1)) & 1
